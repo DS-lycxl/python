@@ -1,0 +1,14 @@
+n=re.compile('<a href="(//read.qidian.com/chapter/.*?)" target="_blank" data-eid="qd_G55" data-cid="//read.qidian.com/chapter/.*?" title="首发时间：.*? 章节字数：.*?">(.*?)</a>')
+
+<div class="read-content j_readContent">([\s\S]*?)</div>
+
+<a href="(//vipreader.qidian.com/chapter.*?)" target="_blank" data-eid="qd_G55" data-cid=".*?" title="首发时间：.*?章节字数：.*?">(.*?)</a>
+
+[.*?:.*?]+?
+
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+<div class="read-content j_readContent">([\s\S]*?)</div>
